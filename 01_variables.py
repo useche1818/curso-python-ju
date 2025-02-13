@@ -24,5 +24,24 @@ print(len(my_string_variable)) #esta contando la cantidad de variables en la cad
 
 #Variables en una sola linea "no es una buena practica pero se puede hacer ¡Cuidado con abusar de esta sintaxis!"
 
-name, surname, alias, age = "jose", "Us", "kerokgaming", 31
-print("me llamo:", name, surname,".Mi edad es:", age,". Mi alias es: ", alias)
+name, surname, alias, age = "Jose", "Us", "kerokgaming", 32
+print("me llamo:", name, surname,"Mi edad es:", age,"Mi alias es:", alias)
+
+# Inputs
+"""name = input('¿Cuál es tu nombre? ')
+age = input('¿Cuántos años tienes? ')
+print(name)
+print(age)"""
+
+# Cambiamos su tipo
+name = 32
+age = "Jose"
+print(name)
+print(age)
+
+# ¿Forzamos el tipo?
+address: str = "Mi dirección"
+address = True
+address = 5
+address = 1.2
+print(type(address))
